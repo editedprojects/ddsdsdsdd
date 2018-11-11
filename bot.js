@@ -36,7 +36,7 @@ if(!men) return  edited.channel.send(":black_medium_square:**قم بوضع اي�
    edited.channel.send(editedyasmk).then(message => {
 message.react('✅').then(r=>{
 message.react('❌').then(r=>{            
-  var kk = (reaction, user) => reaction.emoji.name === '✅' && user.id ===
+  var kk = (reaction, user) => reaction.emoji.name === '✅' && user.id === ;
   var nn = (reaction, user) => reaction.emoji.name === '❌' && user.id === edited.author.id;
   var kkk = message.createReactionCollector(kk, { time: 60000 });
   var nnn = message.createReactionCollector(nn, { time: 60000 });
